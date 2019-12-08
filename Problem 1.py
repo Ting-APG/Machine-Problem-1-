@@ -7,7 +7,7 @@ def f(n):
          return f(n-10)
 x = []
 y = []
-for n in range(1,100):
+for n in range(0,100):
    x.append(n)
    y.append(f(n))
    print(x)
